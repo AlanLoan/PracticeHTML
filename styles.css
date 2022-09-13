@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    
+}
+
+p{
+ color: red;
+}
+.navi{
+    border: 5px dashed;
+    padding-left: 0;
+    list-style: none;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.navi li{
+    display: inline-block;
+    border: 3px outset;
+    
+}
+
+.navi>li>a:hover{
+    background-color: red;
+}
+
